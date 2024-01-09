@@ -1,4 +1,4 @@
-package ru.conditions;
+package ru.condition;
 
 public class SqArea {
     public static double square(double p, double k) {
@@ -13,4 +13,3 @@ public class SqArea {
         System.out.println(" p = 6, k = 2, s = 2, real = " + result1);
     }
 }
-
