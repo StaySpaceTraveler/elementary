@@ -9,6 +9,14 @@ public class Converter {
         return value / 90;
     }
 
+    public static float rubleToJpy (float value) {
+        return value / 78;
+    }
+
+    public static float rubleToCny (float value) {
+        return value / 67;
+    }
+
     public static void main(String[] args) {
         float in = 450;
         float expected = 5;
