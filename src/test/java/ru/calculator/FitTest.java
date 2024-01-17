@@ -21,5 +21,4 @@ class FitTest {
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
 
-
 }

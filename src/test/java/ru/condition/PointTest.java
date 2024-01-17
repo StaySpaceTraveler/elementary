@@ -3,7 +3,6 @@ package ru.condition;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
-
 class PointTest {
 
     @Test
@@ -17,7 +16,6 @@ class PointTest {
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
 
-
     @Test
     void when53to81then3dot6() {
         double expected = 3.6;
@@ -29,7 +27,6 @@ class PointTest {
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
 
-
     @Test
     void when47to19then3dot6() {
         double expected = 3.6;
@@ -40,7 +37,6 @@ class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
-
 
     @Test
     void when26to38then2dot2() {

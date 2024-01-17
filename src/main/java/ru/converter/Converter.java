@@ -9,11 +9,11 @@ public class Converter {
         return value / 90;
     }
 
-    public static float rubleToJpy (float value) {
+    public static float rubleToJpy(float value) {
         return value / 78;
     }
 
-    public static float rubleToCny (float value) {
+    public static float rubleToCny(float value) {
         return value / 67;
     }
 
