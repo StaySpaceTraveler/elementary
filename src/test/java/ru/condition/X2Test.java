@@ -45,6 +45,7 @@ class X2Test {
     }
 
 
+
     @Test
     void whenA1B1C0X1Then2() {
         int a = 1;
