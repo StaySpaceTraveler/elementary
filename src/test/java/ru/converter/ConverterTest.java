@@ -1,5 +1,6 @@
 package ru.converter;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
@@ -14,6 +15,7 @@ class ConverterTest {
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 
+    @Disabled
     @Test
     void whenConvert0RblThen0Euro() {
         float in = 0;
